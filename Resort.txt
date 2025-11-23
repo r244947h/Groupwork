@@ -1,0 +1,48 @@
+BBMIT Parallel 2,2
+Lecturer  Mr Pasipanodya
+Group 4 Virtual web app to preview a tourism destination before deciding to buy
+Promise 	Tshuma	R243248B
+Onesmo. S	Chinyemba 	R246768H
+Karen	Njolomole	R244947H
+Tafadzwa 	Musemburi 	R236410B
+Stanford	Nyakudya	R192485H
+
+App Name : TravelSphere – Experience Before You Go
+Goal: Let users explore destinations interactively (via 360° views, videos, maps, weather, local attractions, and package previews) to help them decide before booking.
+
+ STEP-BY-STEP DESIGN PROCESS
+1. Define the Core Features
+These are the essential modules your virtual tourism web app should include:
+Feature	Description
+🗺️Virtual Tour Viewer	Displays 360° panoramic images or videos of destinations (using tools like Google Street View API, or custom VR scenes).
+📸 Gallery & Videos	Shows photos and short clips highlighting local experiences, accommodations, and attractions.
+🏨 Package Preview	Lets users view accommodation types, prices, amenities, and booking links.
+🕶️ VR/3D Mode (Optional)	Allows users to use VR headsets for immersive exploration (WebXR or Three.js).
+🌦️ Live Info Section	Displays live weather, time zone, currency exchange, and nearby restaurants/landmarks.
+💬 User Reviews	Shows testimonials, star ratings, and photos from past travelers.
+🛒 Book or Enquire Button	Directs users to booking or enquiry pages after they’ve previewed the destination.
+
+2. Choose Your Technology Stack
+Use web tools that are lightweight but powerful:
+Layer	Recommended Tools
+Frontend (UI)	HTML5, CSS3, JavaScript, TailwindCSS, React (for interactivity)
+3D/VR Elements	A-Frame, Three.js, or WebXR
+Backend (optional)	Node.js or Firebase (for saving user data, reviews, etc.)
+APIs (for dynamic info)	Google Maps API, OpenWeather API, TripAdvisor API
+Hosting	Netlify, GitHub Pages, or Vercel (for front-end only); Firebase for dynamic apps
+
+3. Design the User Flow
+Here’s how users should experience the app:
+1.	Landing Page:
+o	Background video of destinations.
+o	“Explore Now” button → leads to destination preview.
+2.	Destination Preview Page:
+o	Hero image or 360° view.
+o	Tabs for “Attractions”, “Hotels”, “Reviews”, “Gallery”.
+o	Side panel showing live info (weather, currency, time).
+3.	Virtual Tour:
+o	Clickable hotspots on the 360° image to “walk” around.
+o	Optional voice narration or music.
+4.	Booking or Enquiry Page:
+o	After previewing, the user can choose a travel package, fill a form, or go to a booking partner (like Booking.com or your company’s checkout).
+
